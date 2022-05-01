@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(255, 255, 255, 0.904);
+ }
+
+.flex-header {
+    display: inline-flex;
+    flex-direction: row;
+    flex: 1 1 100px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+button {
+    display: inline-flex;
+    align-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border: black;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    font-size: 25px;
+    margin: 1px 2px;
+    padding: 2px 2px;
+    border-radius: 20px;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    
+}
+
+a   {
+    color: #000000;
+    text-shadow: rgba(0, 0, 0, 0.555);
+    text-decoration: none;
+}
+
+h1 {
+    color: #000000;
+    font-size: 250%;
+}
+
+h2 {
+    color:#000000;
+}
+
+img#profile {
+ display: inline-flex;
+ max-width: 150px;
+ max-height: 150px;
+ border-radius: 50%;
+ flex-wrap: wrap;
+}
+
+p {
+    color: #000000;
+}
+
+
+
+.work {
+    display: box;
+    flex-direction: row;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    border-radius: 25px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.flex-work {
+    display: box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img#work {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+    border-radius: 25px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+img#work2 {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    border-radius: 25px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.contactme {
+    display: box;
+    flex-direction: row;
+    justify-content: right;
+    flex-grow: 4;
+    flex-wrap: wrap;
+}
+
+.resume {
+    display: box;
+    flex-direction: row;
+    justify-content: right;
+    flex-grow: 4;
+    flex-wrap: wrap;
+}
